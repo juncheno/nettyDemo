@@ -3,11 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example</groupId>
-  <artifactId>netty-http</artifactId>
+
+  <artifactId>nettyDemo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>netty-http</name>
+  <name>nettyDemo</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -40,24 +41,4 @@
         </dependency>
   </dependencies>
   
-   <build>
-   <plugins>
-   <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
-                <version>1.2.1</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>java</goal>
-                        </goals>
-                        <configuration>                         
-                            <mainClass>org.aptovia.javaee7.CDBOOKSTORE.Main</mainClass>
-                        </configuration>
-                    </execution>
-                </executions>
-             </plugin>
-
-         </plugins>
-     </build>
 </project>
